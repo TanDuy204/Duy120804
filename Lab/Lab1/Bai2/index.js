@@ -7,20 +7,20 @@ const eventInfo = [
   {
     title: "Event 3",
     description: "Description for Event 3",
-    address: "Hồ Tràm, Vũng Tàu",
+    address: "Bà Nà Hill, Đà Nẵng",
     time: "09 : 00 AM - 12AM, 12/12/2024",
     car: "Xe bus",
     time2: "21 : 00 - 22 : 00",
     image:
-      "https://www.chudu24.com/wp-content/uploads/2017/01/du-lich-ho-tram-7-1.jpg",
+      "http://reviewvilla.vn/wp-content/uploads/2022/06/Kinh-nghiem-di-Ba-Na-Hill-3.jpg",
   },
 ];
 
 const eventInfo2 = [
   {
-    name: "Hồng Quỳnh",
+    name: "Mercure Danang French Village Bana Hills",
     time: "06 : 00 AM - 12 : 00 AM",
-    address: "234 Quang Trung, Hồ Chí Minh",
+    address: "Xã Hòa Ninh - Huyện Hòa Vang - Thành phố Đà Nẵng - Việt Nam, Hòa Ninh, Đà Nẵng, Việt Nam,",
   },
 ];
 const Bai2 = () => {
