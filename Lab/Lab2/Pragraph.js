@@ -1,6 +1,6 @@
 import { Text, View } from "react-native";
 import { useContext } from "react";
-import { ThemeContext } from "./Provider_useContext";
+
 
 
 export default function Paragraph() {

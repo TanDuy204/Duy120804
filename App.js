@@ -20,6 +20,9 @@ import Lab1Screen from './components/Home';
 import Bai1 from './Lab/Lab1/Bai1';
 import Bai2 from'./Lab/Lab1/Bai2';
 import Bai3Lab1 from'./Lab/Lab1/Bai3';
+import Lab3Screen from './Lab/Lab3/Lab3_home';
+import Move from './Lab/Lab3/Move';
+import Bai2Lab3 from './Lab/Lab3/Bai2';
 
 const Stack = createNativeStackNavigator();
 
@@ -65,41 +68,23 @@ const App = () => {
         component={Bai3Lab1}
         options={{ title: "Lab 3" }}
       />
-      <Stack.Screen
-        name="counter"
-        component={Counter}
-        options={{ title: "Counter" }}
-      />
+    
        <Stack.Screen
         name="Lab2React"
         component={Main}
         options={{ title: "Lab2" }}
       />
-      <Stack.Screen
-        name="countDown"
-        component={CountDown}
-        options={{ title: "CountDown" }}
-      />
-      <Stack.Screen
-        name="countMemo"
-        component={CountMemo}
-        options={{ title: "CountMemo" }}
-      />
-      <Stack.Screen
-        name="countCallBack"
-component={Count_useCallBack}
-        options={{ title: "CountCallBack" }}
-      />
-      <Stack.Screen
-        name="productUseMemo"
-        component={Product_useMemo}
-        options={{ title: "Product_useMemo" }}
-      />
-      <Stack.Screen
-        name="useContextScreen"
-        component={UseContextScreen}
-        options={{ title: "UseContextScreen" }}
-      />
+       <Stack.Screen
+          name="Lab3React"
+          component={Move}
+          options={{ title: "Bai1lab3" }}
+        />
+        <Stack.Screen
+          name="LAb3Bai2React"
+          component={Bai2Lab3}
+          options={{ title: "Bai2lab3" }}
+        />
+        
       {/* Thêm các màn hình cho các lab khác tại đây */}
     </Stack.Navigator>
   </NavigationContainer>
@@ -135,13 +120,7 @@ return (
 
 
 
-const Lab3Screen = () => {
-return (
-  <View style={styles.labScreenContainer}>
-    <Text style={styles.screenText}>Lab 3 Screen</Text>
-  </View>
-);
-};
+
 
 // Thêm các màn hình cho các lab khác tại đây
 
